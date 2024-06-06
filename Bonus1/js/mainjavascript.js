@@ -25,5 +25,15 @@ for (let i = 1; i <=100; i++) {
 
     // creiamo un nuovo elemento div
     const div = document.createElement('div');
+
+    // abilitare il testo ed aggiungere classi
+
+        // per il testo
+    div.textContent = output;
+        // aggiunta classe
+    div.classList.add("quadrato", output);
+
+    // appendiere l'elemento al contenitore principale utilizzando append()
+    contenitorePrincipaleNelMain.append(div);
   
 }
