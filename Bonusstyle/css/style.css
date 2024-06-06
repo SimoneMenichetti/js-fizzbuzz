@@ -34,3 +34,22 @@ background-color: #083B4C;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+
+/* stili valori */
+
+.numero {
+    color: blue;
+    background-color: #1389B2;
+}
+
+.fizz {
+    color: green;
+}
+
+.buzz {
+    color: red;
+}
+
+.fizzbuzz {
+    color: purple;
+}

@@ -31,9 +31,27 @@ for (let i = 1; i <=100; i++) {
         // per il testo
     div.textContent = output;
         // aggiunta classe
-    div.classList.add("quadrato", output);
+    div.classList.add(".quadrato");
 
-    // appendiere l'elemento al contenitore principale utilizzando append()
+
+       // Aggiungo classi specifiche per i diversi casi di style
+      
+    if (output === "Fizz") {
+           div.classList.add("fizz");
+
+    } else if (output === "Buzz") {
+           div.classList.add("buzz");
+
+    } else if (output === "FizzBuzz") {
+           div.classList.add("fizzbuzz");
+
+    } else {
+        div.classList.add("numero");
+    }
+
+    // appendere l'elemento al contenitore principale utilizzando append()
     contenitorePrincipaleNelMain.append(div);
+   
+       
   
 }
