@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+body{
+background-color: #083B4C;
+}
+    
+}
+
+.title{
+    text-align: center;
+    font-size: large;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px auto;
+}
+.container div {
+    width: calc(14% - 10px); 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
